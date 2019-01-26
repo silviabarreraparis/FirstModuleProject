@@ -1,0 +1,192 @@
+/* Todo*/
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto|Roboto+Condensed');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Avenir';
+}
+
+button{
+    width: 40%;
+    border-radius: 20px;
+    padding: 2% 2%;
+    border:none;
+    cursor: pointer;
+    margin-top: 10%;
+    color: rgb(227, 115, 70);
+    background-color: white;
+    font-size: 150%;
+    font-family: sans-serif;
+    
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 350;
+    font-family: 'HelveticaNeue'
+    
+}
+
+body{
+    height: 2000px;
+    background-color: white;
+    
+}
+
+/* Navbar */
+.logo{
+    width: 160px;
+   
+}
+
+.logo img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 0 2%;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.nav2{
+    justify-content: flex-end;
+    
+    
+
+}
+
+header nav span{
+    padding: 0 2%;
+    cursor: pointer;
+    transition: all .3s ease;
+
+}
+
+header nav span:hover{
+    background-color: gray;
+    color:white; 
+}
+
+/*Main Sections*/
+
+.main-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color:white;
+    display: flex;
+}
+
+.cover{
+    background-image: url('https://images.pexels.com/photos/1153213/pexels-photo-1153213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15% 25% 0 25%;
+}
+
+.layout{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(252, 105, 6);
+    /* background-color: rgba(205, 86, 7, 0.4); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 150px 30px 30px 30px;
+}
+
+
+.menu{
+    display:none;   
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/*Quienes Somos*/
+
+.main-quienes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.main-quienes * {
+    margin: 5vw;
+    width: 40vw;
+}
+
+.quienes{
+    font-size: 43px;
+    line-height: 1.23;
+    max-width: 400px;
+}
+
+
+
+/*Media Queries*/
+
+@media(max-width:500px){
+    button{
+        width:55%;
+    }
+    .cover{
+        padding: 15% 0 0 0;
+    }
+    .nav2{
+       margin-right: -150%;
+       flex-direction: column;
+       justify-content: flex-start;
+    }
+    .menu:hover ~ .nav2{
+        margin-right: 0;
+    }
+    article.layout{
+        background-color: rgba(205, 86, 7, 0.4);
+    }
+    .menu{
+        display:block;
+        padding: 7% 5%;
+
+    }
+    .fas{
+        font-size: 180%;
+        opacity: 0.5;
+    }
+   
+    
+}
+
+section.parallax{
+
+    background-image: url('https://images.pexels.com/photos/615334/person-girl-human-joy-615334.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+
+}
