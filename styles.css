@@ -155,13 +155,21 @@ header nav span:hover{
     .cover{
         padding: 15% 0 0 0;
     }
-    .nav2{
-       margin-right: -150%;
+    .header{
+        display: block;
+    }
+    .nav2{       
        flex-direction: column;
        justify-content: flex-start;
+       transition: all .3s ease;
+       background-color: black;
+       color:white;
+       width: 100%;
+       position: absolute;
+       right: -100%;
     }
     .menu:hover ~ .nav2{
-        margin-right: 0;
+        right: 0%;
     }
     article.layout{
         background-color: rgba(205, 86, 7, 0.4);
