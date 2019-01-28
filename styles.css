@@ -38,6 +38,12 @@ body{
     
 }
 
+a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+
 /* Navbar */
 .logo{
     width: 160px;
@@ -73,8 +79,8 @@ nav{
 
 }
 
-header nav span{
-    padding: 0 2%;
+header nav a{
+    padding: 2%;
     cursor: pointer;
     transition: all .3s ease;
 
@@ -123,7 +129,20 @@ header nav span:hover{
     right: 0;
 }
 
-/*Quienes Somos*/
+/*Cursos de Liderazgo*/
+
+.texto1{
+    /* display: flex;
+    align-items: center; */
+}
+
+p{
+    
+        font-size: 20px;
+        line-height: 1.44;
+        font-weight: 300;
+    
+}
 
 .main-quienes {
     display: flex;
@@ -144,6 +163,14 @@ header nav span:hover{
     max-width: 400px;
 }
 
+#instucionales{
+    background-color: black;
+}
+
+.tipos-cursos{
+    font-family: sans-serif;
+    font-size: 55px;
+}
 
 
 /*Media Queries*/
@@ -162,7 +189,7 @@ header nav span:hover{
        flex-direction: column;
        justify-content: flex-start;
        transition: all .3s ease;
-       background-color: black;
+       background-color: white;
        color:white;
        width: 100%;
        position: absolute;
