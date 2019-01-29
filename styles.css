@@ -208,7 +208,7 @@ p{
 .experiencias{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -216,6 +216,25 @@ p{
     margin:70px;
 }
 
+.card-text{
+    margin-top: 0vw;
+    font-size: 22px;
+   }
+
+   .card-title{
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.btn-secondary{
+    margin-left: 6vw;
+    margin-top: 4%;
+}
+
+.list-group-item{
+    text-align: center;
+    font-size: 20px;
+}
 
 /*Media Queries*/
 
@@ -278,6 +297,10 @@ p{
    .card-text{
     margin-top: 0vw;
    }
+   .btn-secondary{
+    margin-left: 15vw;
+    margin-top: 2%;
+}
     
 }
 
