@@ -24,6 +24,9 @@ button{
     font-family: sans-serif;
     
 }
+.btn-inscribete{
+    width:100%;
+}
 
 h1{
     font-size: 3rem;
@@ -255,6 +258,9 @@ p{
     button{
         width:55%;
     }
+    .btn-inscribete{
+        width:100%;
+    }
     .cover{
         padding: 15% 0 0 0;
     }
@@ -330,6 +336,7 @@ p{
     button{
         width: 65%;
     }
+   
 
     .quienes{
         font-size: 30px;
@@ -373,6 +380,30 @@ section.parallax{
 section.parallax2{
 
     background-image: url("./equipoA.jpeg");
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+
+}
+
+section.parallax3{
+
+    background-image: url("./actividad.jpeg");
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+
+}
+
+section.parallax4{
+
+    background-image: url("./inscribete.jpeg");
     min-height: 50vh;
     background-size: cover;
     background-position: center;
