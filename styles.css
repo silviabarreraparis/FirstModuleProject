@@ -16,10 +16,10 @@ button{
     padding: 1.5% 2%;
     border:none;
     cursor: pointer;
-    margin-top: 10%;
+    margin-top: 5%;
     color: rgb(227, 115, 70);
     background-color: white;
-    font-size: 150%;
+    font-size: 200%;
     font-family: sans-serif;
     
 }
@@ -91,6 +91,10 @@ header nav span:hover{
     color:white; 
 }
 
+.nina{
+    width: 45%
+}
+
 /*Main Sections*/
 
 .main-section {
@@ -118,7 +122,7 @@ header nav span:hover{
     align-items: center;
     flex-direction: column;
     color: white;
-    padding: 150px 30px 30px 30px;
+    padding: 60px 30px 30px 30px;
 }
 
 
@@ -131,16 +135,16 @@ header nav span:hover{
 
 /*Cursos de Liderazgo*/
 
-.texto1{
-    /* display: flex;
-    align-items: center; */
-}
+
 
 p{
     
-        font-size: 20px;
-        line-height: 1.44;
-        font-weight: 300;
+    font-size: 25px;
+    line-height: 1.44;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 12vw;
+
     
 }
 
@@ -149,18 +153,46 @@ p{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    min-height: 100vh;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .main-quienes * {
-    margin: 5vw;
-    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;   
 }
 
 .quienes{
-    font-size: 43px;
+    font-size: 60px;
     line-height: 1.23;
     max-width: 400px;
+}
+
+.conocer-mas{
+    justify-content: flex-start;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top:2%;
+}
+
+.texto1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.texto2 p {
+    margin-top: 0 !important;
 }
 
 #instucionales{
@@ -170,6 +202,12 @@ p{
 .tipos-cursos{
     font-family: sans-serif;
     font-size: 55px;
+}
+
+.experiencias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
