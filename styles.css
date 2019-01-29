@@ -213,7 +213,7 @@ p{
 }
 
 .card{
-    margin:20px;
+    margin:70px;
 }
 
 
@@ -272,7 +272,12 @@ p{
         font-size: 40px;
 
     }
-   
+    .card-title{
+        font-size: 2rem;
+    }
+   .card-text{
+    margin-top: 0vw;
+   }
     
 }
 
