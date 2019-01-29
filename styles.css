@@ -54,6 +54,7 @@ a{
     width: 100%;
 }
 
+
 header{
     display: flex;
     justify-content: space-between;
@@ -207,7 +208,12 @@ p{
 .experiencias{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin:20px;
 }
 
 
@@ -238,6 +244,8 @@ p{
     }
     article.layout{
         background-color: rgba(205, 86, 7, 0.4);
+        max-height: 900px;
+        justify-content: center;
     }
     .menu{
         display:block;
@@ -248,14 +256,31 @@ p{
         font-size: 180%;
         opacity: 0.5;
     }
+
+    .main-quienes *{
+        width: 80vw;
+    }
+
+    .main-quienes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100vw;
+    }
+    .quienes{
+        font-size: 40px;
+
+    }
    
     
 }
 
 section.parallax{
 
-    background-image: url('https://images.pexels.com/photos/615334/person-girl-human-joy-615334.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-
+    background-image: url("./grupo.jpeg");
+    /* background-image: url('https://images.pexels.com/photos/615334/person-girl-human-joy-615334.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+    min-height: 50vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
